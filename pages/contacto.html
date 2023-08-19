@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Full Screen Slider and Responsive Navigation Bar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Somos una agencia de marketing digital dedicada a impulsar tu presencia en línea. Nuestro equipo de expertos combina estrategia y creatividad para llevar tu marca al siguiente nivel. Ofrecemos servicios de estrategias en redes sociales, SEO, publicidad en línea y más. ¡Contáctanos para potenciar tu éxito digital!">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="../scss/styles.css">
+    <link rel="icon" href="../img/LOGO.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/LOGO.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="topnav" class="navbar c">
+        <img src="../img/LOGO.png" alt="logo">
+        <div class="navbar-right menu">
+            <a href="../index.html" class="active">
+                Inicio
+            </a>
+            <a href="../pages/diseñoweb.html">
+                Diseño web
+            </a>
+            <a href="../pages/diseñografico.html">
+                Diseño gráfico
+            </a>
+            <a href="../pages/trabajos.html">
+                Trabajos
+            </a>
+            <a href="../pages/contacto.html">
+                Contacto
+            </a>
+        </div>
+        <div class="navbar-right">
+            <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div class="cover-section">
+        <div class="cover-text">
+            <h1>CONTACTO</h1>
+            <p>Comunicate con nosotros</p>
+        </div>
+    </div>
+    <section>
+        <div class="contacto3">
+            <div class="div1c">
+                <img src="../img/whatsapp.png" alt="WhatsApp">
+            </div>
+            <div class="div2c"> WhatsApp: <b>+54 12 7654-0321</b>
+
+            </div>
+            <div class="div3c">
+                <img src="../img/viber.png" alt="telefono">
+            </div>
+            <div class="div4c"> Numero: <b>+54 12 9721-4321</b>
+
+            </div>
+            <div class="div5c">
+                <img src="../img/horarios.png" alt="horarios">
+            </div>
+            <div class="div6c">
+                Horarios: <b>09:00hs a 17:00hs</b>
+            </div>
+            <div class="div7c">
+                <img src="../img/cierto.png" alt="dias">
+            </div>
+            <div class="div8c"> Dias <b>Lunes a Sàbados</b></div>
+        </div>
+    </section>
+    
+ <section class="con12">
+    <div class="content">
+
+        <h1 class="logo">Completa tus <span>datos</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contact us</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre y apellido</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Número de teléfono</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Send
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Más info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i>Ubicación</li>
+                    <li><i class="fas fa-phone"></i>+54 12 7654-0321</li>
+                    <li><i class="fas fa-envelope-open-text"></i>ar.linkedin.com</li>
+                </ul>
+                <p>¡Impulsa tu éxito con nuestro marketing digital! Convierte visitantes en clientes y potencia 
+                    tu presencia en línea. ¡Contáctanos ahora y eleva tu estrategia digital al siguiente nivel!</p>
+                <p>Duck.com</p>
+            </div>
+        </div>
+
+    </div>
+ </section>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../img/LOGO.png" alt="Logo de Duck">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos expertos en Marketing Digital, centrados en impulsar tus ventas. Nuestra estrategia se basa en
+                    fortalecer la visibilidad
+                    de tu empresa en línea mediante enfoques efectivos. Creamos páginas web personalizadas, gestionamos
+                    tus redes sociales y mejoramos tu presencia digital de manera sólida y eficiente.
+                </p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Duck</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
